@@ -1,1 +1,1 @@
-this web app for Yeva portfolio. And this is the first time to use GitHub Pages host.
+This web app for Yeva portfolio. And this is the first time to use GitHub Pages host.
