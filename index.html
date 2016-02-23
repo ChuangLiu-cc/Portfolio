@@ -10,11 +10,21 @@
 	<link rel="stylesheet" type="text/css" href="css/style.css"> <!-- Resource style -->
 	<link rel="stylesheet" type="text/css" href="css/jquery.fancybox.css" media="screen" />
 	<link rel="stylesheet" type="text/css" href="css/jquery.fancybox-thumbs.css?v=1.0.7" />
+	<link rel="stylesheet" type="text/css" href="css/demo.css" />
+	<link rel="stylesheet" type="text/css" href="css/slicebox.css" />
+	<link rel="stylesheet" type="text/css" href="css/custom.css" />
+	<script type="text/javascript" src="js/modernizr.custom.46884.js"></script>
 	<title>Yeva Portfolio</title>
 </head>
 	<body>
 		<header class="cd-header">
-			<div id="cd-logo"><a href="#0"><img src="img/cd-logo.svg" alt="Logo"></a></div>
+			<!--<div id="cd-logo"><a href="#0"><img src="img/cd-logo.svg" alt="Logo"></a></div>-->
+			<div id="cd-logo">
+				<img src="logos/autocad_60x60.png" alt="Logo">
+				<img src="logos/revit_60x60.png" alt="Logo">
+				<img src="logos/ps_60x60.png" alt="Logo">
+				<img src="logos/coreldraw_60x60.jpg" alt="Logo">
+			</div>
 
 			<nav class="cd-main-nav">
 				<ul>
@@ -32,16 +42,16 @@
 				<!--<h1 style="top: 27%; font-size: 5.5em; color: dimgrey;">Yeva &amp; Portfolio</h1>-->
 			</div> <!-- cd-fixed-bg -->
 			<div class="cd-scrolling-bg cd-color-1">
-				<div class="col-l col-m col-s">
-					<p>
-						<a class="fancybox" rel="gallery" href="1st_floor_3500x3300.jpg" data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><img src="1st_floor.jpg" alt="" /></a>
+				<!--<div class="col-l col-m col-s">
+					<p class="row-1">
+						<a class="fancybox" rel="gallery" href="Project1/1st_floor_3500x3300.jpg" data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><img src="Project1/1st_floor.jpg" alt="" /></a>
 
-						<a class="fancybox" href="EAST ELEVATION3500x3300.jpg" data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><img src="EAST ELEVATION350x330.jpg" alt="" /></a>
+						<a class="fancybox" href="Project1/EAST ELEVATION3500x3300.jpg" data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><img src="Project1/EAST ELEVATION350x330.jpg" alt="" /></a>
 
-						<a class="fancybox" href="WEST ELEVATION3500x3300.jpg" data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><img src="WEST ELEVATION350x330.jpg" alt="" /></a>
+						<a class="fancybox" href="Project1/WEST ELEVATION3500x3300.jpg" data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><img src="Project1/WEST ELEVATION350x330.jpg" alt="" /></a>
 
-						<a class="fancybox" href="BIM2 4 STOREY OFFICE NORTH ELEVATION3500x3300.jpg" data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><img src="BIM2 4 STOREY OFFICE NORTH ELEVATION350x330.jpg" alt="" /></a>
-						<a class="fancybox" href="SOUTH ELEVATION3500x3300.jpg" data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><img src="SOUTH ELEVATION350x330.jpg" alt="" /></a>
+						<a class="fancybox" href="Project1/BIM2 4 STOREY OFFICE NORTH ELEVATION3500x3300.jpg" data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><img src="Project1/BIM2 4 STOREY OFFICE NORTH ELEVATION350x330.jpg" alt="" /></a>
+						<a class="fancybox" href="Project1/SOUTH ELEVATION3500x3300.jpg" data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><img src="Project1/SOUTH ELEVATION350x330.jpg" alt="" /></a>
 					</p>
 					<p style="margin-left: 75px;">
 						<a class="fancybox" href="1st_floor700.jpg" data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><img src="1st_floor.jpg" alt="" /></a>
@@ -63,6 +73,61 @@
 						<a class="fancybox" href="1st_floor.jpg" data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><img src="1st_floor.jpg" alt="" /></a>
 						<a class="fancybox" href="1st_floor.jpg" data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><img src="1st_floor.jpg" alt="" /></a>
 					</p>
+				</div>-->
+				<div class="wrapper">
+
+					<ul id="sb-slider" class="sb-slider">
+						<li>
+							<img src="Project1/1st_floor700x420.jpg" alt="image1"/>
+							<div class="sb-description">
+								<h3>FIRST FLOOR</h3>
+							</div>
+						</li>
+						<li>
+							<img src="Project1/EAST ELEVATION700x420.jpg" alt="image2"/>
+							<div class="sb-description">
+								<h3>EAST ELEVATION</h3>
+							</div>
+						</li>
+						<li>
+							<img src="Project1/WEST ELEVATION700x420.jpg" alt="image1"/>
+							<div class="sb-description">
+								<h3>WEST ELEVATION</h3>
+							</div>
+						</li>
+						<li>
+							<img src="Project1/BIM2 4 STOREY OFFICE NORTH ELEVATION700x420.jpg" alt="image1"/>
+							<div class="sb-description">
+								<h3>BIM2 4 STOREY OFFICE NORTH ELEVATION</h3>
+							</div>
+						</li>
+						<li>
+							<img src="Project1/SOUTH ELEVATION700x420.jpg" alt="image1"/>
+							<div class="sb-description">
+								<h3>SOUTH ELEVATION</h3>
+							</div>
+						</li>
+						<li>
+							<a href="http://www.flickr.com/photos/strupler/2968126177" target="_blank"><img src="img/6.jpg" alt="image1"/></a>
+							<div class="sb-description">
+								<h3>Groundbreaking Artist</h3>
+							</div>
+						</li>
+						<li>
+							<a href="http://www.flickr.com/photos/strupler/2968945158" target="_blank"><img src="img/7.jpg" alt="image1"/></a>
+							<div class="sb-description">
+								<h3>Selfless Philantropist</h3>
+							</div>
+						</li>
+					</ul>
+
+					<div id="shadow" class="shadow"></div>
+
+					<div id="nav-arrows" class="nav-arrows">
+						<a href="#">Next</a>
+						<a href="#">Previous</a>
+					</div>
+
 				</div>
 			</div> <!-- cd-scrolling-bg -->
 
@@ -110,6 +175,6 @@
 		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 		<script type="text/javascript" src="js/main.js"></script> <!-- Resource jQuery -->
 		<script type="text/javascript" src="js/jquery.fancybox.js"></script>
-		
+		<script type="text/javascript" src="js/jquery.slicebox.js"></script>
 	</body>
 </html>

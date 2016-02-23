@@ -69,7 +69,7 @@ Main components
 
 -------------------------------- */
 @media only screen and (max-width: 1920px){
-  .col-l p{
+  .col-l .row-1{
     margin-top: -90px; 
     margin-left: 75px;
   }
@@ -78,7 +78,7 @@ Main components
 
 @media only screen and (max-width: 1492px){
 
-  .col-s p{
+  .col-s .row-1{
     margin-top: -90px; 
     margin-left: 150px;
   }
@@ -105,7 +105,13 @@ Main components
   margin: 13px 0 0 5%;
 }
 .cd-header #cd-logo img {
-  display: block;
+  //display: block;
+  margin-top: -15px;
+  margin-right: 10px;
+  //box-shadow:  0px 3px 4px 0px rgba(113, 124, 110, 1);
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 20px rgba(0, 0, 0, 0.1) inset;
+  background-color: #9ED9EB;
+
 }
 @media only screen and (min-width: 768px) {
   .cd-header {
