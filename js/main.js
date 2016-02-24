@@ -104,3 +104,158 @@ var $navArrows = $( '#nav-arrows' ).hide(),
 Page.init();
 
 });
+
+$(function() {
+  
+                
+var Page = (function() {
+
+var $navArrows = $( '#nav-arrows1' ).hide(),
+    $shadow = $( '#shadow1' ).hide(),
+    slicebox = $( '#sb-slider1' ).slicebox( {
+        onReady : function() {
+
+            $navArrows.show();
+            $shadow.show();
+
+        },
+        orientation : 'r',
+        cuboidsRandom : true,
+        disperseFactor : 30
+    } ),
+    
+    init = function() {
+
+        initEvents();
+        
+    },
+    initEvents = function() {
+
+        // add navigation events
+        $navArrows.children( ':first' ).on( 'click', function() {
+
+            slicebox.next();
+            return false;
+
+        } );
+
+        $navArrows.children( ':last' ).on( 'click', function() {
+            
+            slicebox.previous();
+            return false;
+
+        } );
+
+    };
+
+    return { init : init };
+
+})();
+
+Page.init();
+
+});
+
+
+$(function() {
+  
+                
+var Page = (function() {
+
+var $navArrows = $( '#nav-arrows2' ).hide(),
+    $shadow = $( '#shadow2' ).hide(),
+    slicebox = $( '#sb-slider2' ).slicebox( {
+        onReady : function() {
+
+            $navArrows.show();
+            $shadow.show();
+
+        },
+        orientation : 'r',
+        cuboidsRandom : true,
+        disperseFactor : 30
+    } ),
+    
+    init = function() {
+
+        initEvents();
+        
+    },
+    initEvents = function() {
+
+        // add navigation events
+        $navArrows.children( ':first' ).on( 'click', function() {
+
+            slicebox.next();
+            return false;
+
+        } );
+
+        $navArrows.children( ':last' ).on( 'click', function() {
+            
+            slicebox.previous();
+            return false;
+
+        } );
+
+    };
+
+    return { init : init };
+
+})();
+
+Page.init();
+
+});
+
+
+$(function() {
+  
+                
+var Page = (function() {
+
+var $navArrows = $( '#nav-arrows3' ).hide(),
+    $shadow = $( '#shadow3' ).hide(),
+    slicebox = $( '#sb-slider3' ).slicebox( {
+        onReady : function() {
+
+            $navArrows.show();
+            $shadow.show();
+
+        },
+        orientation : 'r',
+        cuboidsRandom : true,
+        disperseFactor : 30
+    } ),
+    
+    init = function() {
+
+        initEvents();
+        
+    },
+    initEvents = function() {
+
+        // add navigation events
+        $navArrows.children( ':first' ).on( 'click', function() {
+
+            slicebox.next();
+            return false;
+
+        } );
+
+        $navArrows.children( ':last' ).on( 'click', function() {
+            
+            slicebox.previous();
+            return false;
+
+        } );
+
+    };
+
+    return { init : init };
+
+})();
+
+Page.init();
+
+});
