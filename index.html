@@ -30,10 +30,18 @@
 			<nav class="cd-main-nav">
 				<ul>
 					<!-- inser more links here -->
-					<li><a href="#0">Home</a></li>
-					<li><a href="#0">About</a></li>
-					<li><a href="#0">Project</a></li>
-					<li><a href="#0">Contact</a></li>
+					<li><a href="javascript:void(0)" class="home"><span style="cursor:pointer">Home</span></a></li>
+					<li><a href="javascript:void(0)" class="about"><span style="cursor:pointer">About</span></a></li>
+					<li class="dropdown">
+						<a href="javascript:void(0)" class="dropbtn"><span style="cursor:pointer">Projects</span></a>
+						<div class="dropdown-content" id="myDropdown">
+				      <a href="javascript:void(0)" id="project_1">Project 1</a>
+				      <a href="javascript:void(0)" id="project_2">Project 2</a>
+				      <a href="javascript:void(0)" id="project_3">Project 3</a>
+				      <a href="javascript:void(0)" id="project_4">Project 4</a>
+				    </div>
+					</li>
+					<li><a href="javascript:void(0)" class="contactMe"><span style="cursor:pointer">Contact</span></a></li>
 				</ul>
 			</nav> <!-- cd-main-nav -->
 		</header>
@@ -62,6 +70,31 @@
 								<h3>WEST ELEVATION</h3>
 							</div>
 						</li>
+						<li>
+							<img src="Project1/A3-01.png" alt="image1"/>
+							<div class="sb-description">
+								<h3>WEST ELEVATION</h3>
+							</div>
+						</li>
+						<li>
+							<img src="Project1/A4.jpg" alt="image1"/>
+							<div class="sb-description">
+								<h3>WEST ELEVATION</h3>
+							</div>
+						</li>
+						<li>
+							<img src="Project1/A5.jpg" alt="image1"/>
+							<div class="sb-description">
+								<h3>WEST ELEVATION</h3>
+							</div>
+						</li>
+						<li>
+							<img src="Project1/A6.jpg" alt="image1"/>
+							<div class="sb-description">
+								<h3>WEST ELEVATION</h3>
+							</div>
+						</li>
+
 					</ul>
 					<div id="shadow" class="shadow"></div>
 					<div id="nav-arrows" class="nav-arrows">
@@ -69,12 +102,15 @@
 						<a href="#">Previous</a>
 					</div>
 				</div>
+				<div class="project_detail animation-element1 slide-right">
+					<p>Porject Detail</p>
+				</div>
 			</div> <!-- cd-scrolling-bg -->
 
 			<div class="cd-fixed-bg cd-bg-2">
 			</div> <!-- cd-fixed-bg -->
 			<div class="cd-scrolling-bg cd-color-2">
-				<div class="wrapper project_even animation-element slide-left">
+				<div class="wrapper project_even animation-element1 slide-right">
 					<ul id="sb-slider1" class="sb-slider">
 						<li>
 							<img src="Project2/east.jpg" alt="image1"/>
@@ -165,7 +201,6 @@
 					</div>
 				</div>
 			</div> <!-- cd-scrolling-bg -->
-
 			<div class="cd-fixed-bg cd-bg-4">
 				<!--<h2>Lorem ipsum dolor sit amet.</h2>-->
 			</div> <!-- cd-fixed-bg -->
@@ -173,7 +208,7 @@
 				<!--<div class="cd-container">
 					<p></p>
 				</div>--> <!-- cd-container -->
-				<div class="wrapper project_even_plus animation-element slide-left">
+				<div class="wrapper project_even_plus animation-element1 slide-right">
 					<ul id="sb-slider3" class="sb-slider">
 						<li>
 							<img src="Project4/1stfloor.jpg" alt="image1"/>
@@ -215,7 +250,10 @@
 			</div>
 			<footer class="footer">
 				<div class="footer-content">
-					
+					<h1>CONTACT ME</h1>
+					<h2>PHONE: 226-978-0288</h2>
+					<h2>EMAIL: ywang3-cc@conestogac.on.ca</h2>
+					<a href="https://www.linkedin.com/in/yuewang525"><img src="logos/linkdin.png"></img></a>
 				</div>
 			</footer>
 		</main> <!-- cd-main-content -->
